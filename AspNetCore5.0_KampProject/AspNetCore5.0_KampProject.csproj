@@ -1,0 +1,99 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>AspNetCore5._0_KampProject</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Temalar\web\about.html" />
+    <None Include="wwwroot\Temalar\web\blog1.html" />
+    <None Include="wwwroot\Temalar\web\blog2.html" />
+    <None Include="wwwroot\Temalar\web\blog3.html" />
+    <None Include="wwwroot\Temalar\web\contact.html" />
+    <None Include="wwwroot\Temalar\web\css\bootstrap.css" />
+    <None Include="wwwroot\Temalar\web\css\contact.css" />
+    <None Include="wwwroot\Temalar\web\css\fontawesome-all.css" />
+    <None Include="wwwroot\Temalar\web\css\jquery.desoslide.css" />
+    <None Include="wwwroot\Temalar\web\css\single.css" />
+    <None Include="wwwroot\Temalar\web\css\style.css" />
+    <None Include="wwwroot\Temalar\web\images\1.jpg" />
+    <None Include="wwwroot\Temalar\web\images\2.jpg" />
+    <None Include="wwwroot\Temalar\web\images\3.jpg" />
+    <None Include="wwwroot\Temalar\web\images\4.jpg" />
+    <None Include="wwwroot\Temalar\web\images\5.jpg" />
+    <None Include="wwwroot\Temalar\web\images\6.jpg" />
+    <None Include="wwwroot\Temalar\web\images\7.jpg" />
+    <None Include="wwwroot\Temalar\web\images\8.jpg" />
+    <None Include="wwwroot\Temalar\web\images\b1.jpg" />
+    <None Include="wwwroot\Temalar\web\images\b2.jpg" />
+    <None Include="wwwroot\Temalar\web\images\b3.jpg" />
+    <None Include="wwwroot\Temalar\web\images\b4.jpg" />
+    <None Include="wwwroot\Temalar\web\images\b5.jpg" />
+    <None Include="wwwroot\Temalar\web\images\banner1.jpg" />
+    <None Include="wwwroot\Temalar\web\images\banner2.jpg" />
+    <None Include="wwwroot\Temalar\web\images\banner3.jpg" />
+    <None Include="wwwroot\Temalar\web\images\banner4.jpg" />
+    <None Include="wwwroot\Temalar\web\images\banner5.jpg" />
+    <None Include="wwwroot\Temalar\web\images\left.png" />
+    <None Include="wwwroot\Temalar\web\images\m1.jpg" />
+    <None Include="wwwroot\Temalar\web\images\m2.jpg" />
+    <None Include="wwwroot\Temalar\web\images\m3.jpg" />
+    <None Include="wwwroot\Temalar\web\images\m4.jpg" />
+    <None Include="wwwroot\Temalar\web\images\right.png" />
+    <None Include="wwwroot\Temalar\web\images\t1.jpg" />
+    <None Include="wwwroot\Temalar\web\images\t2.jpg" />
+    <None Include="wwwroot\Temalar\web\images\t3.jpg" />
+    <None Include="wwwroot\Temalar\web\images\t4.jpg" />
+    <None Include="wwwroot\Temalar\web\images\Thumbs.db" />
+    <None Include="wwwroot\Temalar\web\images\top_up.png" />
+    <None Include="wwwroot\Temalar\web\index.html" />
+    <None Include="wwwroot\Temalar\web\js\bootstrap.js" />
+    <None Include="wwwroot\Temalar\web\js\easing.js" />
+    <None Include="wwwroot\Temalar\web\js\jquery-2.2.3.min.js" />
+    <None Include="wwwroot\Temalar\web\js\jquery.desoslide.js" />
+    <None Include="wwwroot\Temalar\web\js\jquery.flexisel.js" />
+    <None Include="wwwroot\Temalar\web\js\modernizr.custom.min.js" />
+    <None Include="wwwroot\Temalar\web\js\move-top.js" />
+    <None Include="wwwroot\Temalar\web\login.html" />
+    <None Include="wwwroot\Temalar\web\register.html" />
+    <None Include="wwwroot\Temalar\web\single.html" />
+    <None Include="wwwroot\Temalar\web\w3layouts-license.txt" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-brands-400.eot" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-brands-400.ttf" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-brands-400.woff" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-regular-400.eot" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-regular-400.ttf" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-regular-400.woff" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-solid-900.eot" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-solid-900.ttf" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-solid-900.woff" />
+    <None Include="wwwroot\Temalar\web\webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj" />
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
+  </ItemGroup>
+
+</Project>
