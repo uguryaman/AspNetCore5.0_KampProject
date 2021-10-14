@@ -18,6 +18,7 @@ namespace AspNetCore5._0_KampProject.Controllers
         }
         public IActionResult BlogDetails(int id)
         {
+            ViewBag.i = id;
             var value = bm.GetBlogById(id);
             return View(value);
         }

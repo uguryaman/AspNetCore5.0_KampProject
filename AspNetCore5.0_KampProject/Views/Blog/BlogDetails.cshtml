@@ -66,10 +66,18 @@
                             <a href="/Blog/Index" class="btn btn-primary read-m">Blog Sayfası</a>
                         </div>
                     }
-                    @await Component.InvokeAsync("BlogCommentList")
-                    @*@await Html.PartialAsync("~/Views/Comment/PartialCommentList.cshtml")*@
-                    @await Html.PartialAsync("~/Views/Comment/PartialNewComment.cshtml")
-                    
+                   
+                    @if (ViewBag.i == 0)
+                    {
+                    }
+                    else
+                    {
+                        @await Component.InvokeAsync("BlogCommentList", new { id = ViewBag.i }) @*//bloglara yapılan yorumların sayfası*@
+
+                    }
+
+                    @await Html.PartialAsync("~/Views/Comment/PartialNewComment.cshtml")   @*//yeni yorum ekleme sayfası*@
+
                 </div>
 
                 <!--//left-->
@@ -88,23 +96,8 @@
                             </form>
 
                         </div>
-                        <div class="tech-btm">
-                            <h4>Categories</h4>
-                            <ul class="list-group single">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Cras justo odio
-                                    <span class="badge badge-primary badge-pill">14</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Dapibus ac facilisis in
-                                    <span class="badge badge-primary badge-pill">2</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Morbi leo risus
-                                    <span class="badge badge-primary badge-pill">1</span>
-                                </li>
-                            </ul>
-                        </div>
+                        @await Component.InvokeAsync("BlogCategoryList")
+                        
                         <div class="tech-btm">
                             <h4>Top stories of the week</h4>
 
